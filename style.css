@@ -64,3 +64,50 @@ main{
     height: 200px;
     display: flex;
 }
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding:20px;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    padding: 18px;  
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+.b-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+.testimonial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    padding: 100px;
+    font-weight: 100;
+}
+.signature{
+    font-size: 18px;
+    align-self: flex-end;
+    font-weight: 900;
+}
