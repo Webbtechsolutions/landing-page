@@ -1,0 +1,22 @@
+/* Style.css */
+
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding:28px;    
+    width: 150px;
+    align-items: center;
+}
+.boxes{
+    border: solid #3882f6;
+}
+.testimonial{
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
