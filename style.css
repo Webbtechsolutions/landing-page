@@ -6,6 +6,10 @@
 }
 body{
     font-family: roboto, Arial, georgia, sans-serif;
+    min-height: 100vh;
+}
+main{
+    padding: 100px;
 }
 .logo{
     color: #f9faf8;
@@ -15,11 +19,12 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
+    padding: 18px;
 }
 .header-links{
     display: flex;
     gap: 20px;
-    color: #f9faf8;
+    color: #e5e7eb;
     align-items: center;
     text-decoration: none;
     font-size: 18px;
@@ -31,6 +36,7 @@ body{
     justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 100px;
 }
 .title{
     font-size: 28px;
@@ -39,4 +45,22 @@ body{
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 100;
+}
+#button-one{
+    padding: 15px;
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.image-placeholder{
+    background-color: #48494b;
+    color: #e5e7eb;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 200px;
+    display: flex;
 }
