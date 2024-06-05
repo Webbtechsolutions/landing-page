@@ -93,8 +93,18 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border: solid #3882f6;
     border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
 }
 .testimonial{
     display: flex;
@@ -105,9 +115,44 @@ h2{
     background-color: #e5e7eb;
     padding: 100px;
     font-weight: 100;
+    margin: 0px;
 }
 .signature{
     font-size: 18px;
     align-self: flex-end;
     font-weight: 900;
+}
+.call-to-action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 30px;
+    background-color:#3882f6;
+    margin: 20px;
+    border-radius: 10px;
+}
+.call{
+    color: #f9faf8;
+}
+.action{
+    background-color: #3882f6;
+    padding: 10px;
+}
+.button-font{
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border: solid #f9faf8;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
